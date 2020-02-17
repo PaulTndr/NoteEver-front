@@ -1,0 +1,77 @@
+.timeline{
+    width:50vw;
+    padding:0px 2.5vw;
+    position: absolute;
+    top: 10vh;
+    left:22.5vw;
+    height:90vh;
+    overflow-y: scroll;
+}
+
+.timeline::-webkit-scrollbar-track 
+{
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.timeline::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: transparent;
+}
+
+.timeline::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #F5F5F5;
+}
+
+.rondImg{
+    width:2vw;
+    height:2vw;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    padding:0.5vw;
+}
+
+.writeIcon{
+    position: absolute;
+    top:1vh;
+    right:1vh;
+}
+
+.filterTimeline{
+    width:50vw;
+    position: absolute;
+    top:2vh;
+    left:25vw;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.rondImgSelectCat{
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px black, 0px 0px 0px black, 0px 0px 0px black;
+    border-radius: 100px;
+    width:3vw;
+    height:3vw;
+    margin-right:0.5vw;
+    background-color: white;
+}
+
+.selectedCategorie{
+    border: 5px solid #3f00ff8f;
+}
+.logoCategorie{
+    width:2vw;
+    height:2vw;
+    display: block;
+    margin: auto;
+    margin-top: 0.5vw;
+}
+
+.shuffleIcon{
+    width:2vw;
+    height:2vw;
+}
