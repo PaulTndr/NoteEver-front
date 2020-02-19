@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<div *ngIf="!isAnimationClosed" class="loadingScreen">
+    <div [ngClass]="{isFullSizeRond: isLoaded}" class="rondLogo"></div>
+    <img [ngClass]="{isFullSizeImg: isLoaded}" src="../assets/logo.png"/>
+</div>
+
+<div *ngIf="isAnimationClosed" class="flexRow logoTxt">
+    <img src="https://www.onlygfx.com/wp-content/uploads/2017/03/ink-drop-1.png" />
+    <h1>N</h1>
+    <p>oteEver</p>
+</div>
+
+<router-outlet *ngIf="isAnimationClosed"></router-outlet>
